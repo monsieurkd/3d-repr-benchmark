@@ -1,0 +1,21 @@
+# python env / caches
+.venv/
+venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# bulk data (regenerable via scripts/run_baseline.py — downloads + converts)
+data/
+
+# experiment caches (large .npy arrays) — small result JSONs + writeups ARE tracked
+results/processed/
+results/runs/
+*.pt
+*.ckpt
+
+# misc
+*.duckdb
+*.duckdb.wal
+*.zip
+.DS_Store

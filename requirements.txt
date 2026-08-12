@@ -1,0 +1,7 @@
+# 3D representation benchmark — Python 3.13
+torch>=2.6
+numpy
+trimesh
+tqdm
+scipy
+pyyaml

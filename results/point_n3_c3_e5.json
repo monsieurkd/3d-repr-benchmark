@@ -1,0 +1,32 @@
+{
+  "rep": "point",
+  "classes": 3,
+  "train_n": 1247,
+  "test_n": 250,
+  "params": 805827,
+  "epochs": 5,
+  "device": "mps",
+  "preprocess_train_sec": 21.663552207988687,
+  "preprocess_test_sec": 23.480057750013657,
+  "load_to_device_sec": 36.84950954199303,
+  "steady_epoch_sec": 8.578654707991518,
+  "total_train_sec": 44.31294858298497,
+  "train_acc_final": 0.9794407894736842,
+  "test_acc": 0.82,
+  "infer_sec": 0.5282586670364253,
+  "infer_us_per_sample": 2113.0346681457013,
+  "per_epoch_sec": [
+    9.104,
+    8.277,
+    8.874,
+    8.927,
+    8.284
+  ],
+  "per_epoch_acc": [
+    0.9013,
+    0.9655,
+    0.9663,
+    0.9803,
+    0.9794
+  ]
+}
