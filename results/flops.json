@@ -1,0 +1,54 @@
+{
+  "num_classes": 40,
+  "device": "cpu",
+  "convention": "MACs (1 multiply-accumulate = 1 FLOP)",
+  "runs": [
+    {
+      "rep": "point",
+      "model": "PointNet",
+      "input_shape": [
+        1,
+        1024,
+        3
+      ],
+      "params": 815336,
+      "macs_per_sample": 295325696
+    },
+    {
+      "rep": "voxel",
+      "model": "VoxNet",
+      "input_shape": [
+        1,
+        1,
+        32,
+        32,
+        32
+      ],
+      "params": 918728,
+      "macs_per_sample": 169921024
+    },
+    {
+      "rep": "sparse",
+      "model": "PointNet (sparse point set)",
+      "input_shape": [
+        1,
+        1024,
+        3
+      ],
+      "params": 815336,
+      "macs_per_sample": 295325696
+    },
+    {
+      "rep": "mview",
+      "model": "MultiViewCNN",
+      "input_shape": [
+        1,
+        8,
+        64,
+        64
+      ],
+      "params": 1149000,
+      "macs_per_sample": 96479232
+    }
+  ]
+}
