@@ -7,6 +7,11 @@ change **training time** and **inference time** — and by how much?
 Accuracy is *recorded* but is **not** the focus. The focus is **data
 representation and data processing**.
 
+> **Headline claim:** representation choice is a *data-ingestion* decision — it
+> decides whether the pipeline pays to encode, or the model pays on every
+> forward pass. See [`CLAIM.md`](CLAIM.md) for exactly how much of that is
+> backed and what is still a hypothesis.
+
 ## Why this is a fair test
 
 Every representation is derived from the **same `.off` mesh**, normalized to the
